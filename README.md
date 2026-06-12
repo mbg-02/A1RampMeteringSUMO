@@ -219,7 +219,7 @@ Options:
 | `--queue-weight VALUE` | `1.0` | Objective weight for average normalized queue ratio. |
 | `--occupancy-weight VALUE` | `5.0` | Objective weight for normalized occupancy violation. |
 | `--spillback-weight VALUE` | `10.0` | Objective weight for spillback active share. |
-| `--violation-mode positive|absolute` | `positive` | Occupancy violation calculation. |
+| `--violation-mode positive/absolute` | `positive` | Occupancy violation calculation. |
 | `--paired-compare A,B` | none | Optional paired comparison between two K_P values. |
 | `--save-controller-timeseries-csv` | off | Save long-format controller time-series CSV for each run. |
 | `--finalize-only` | off | Build summaries/plots from existing raw outputs without new simulations. |
@@ -395,7 +395,7 @@ Options:
 | Option | Default | Meaning |
 | --- | --- | --- |
 | `--output-dir DIR` | `start_edge_traffic_plots` | Output plot directory. |
-| `--format svg|png|pdf` | `png` | Plot format. |
+| `--format svg/png/pdf` | `png` | Plot format. |
 | `--interval-seconds N` | `300` | Aggregation bucket size. |
 | `--detector-flows-csv PATH` | `flows_detFWR.csv` | Detector input flows to overlay. |
 | `--simulation-output PATH` | `output sim/17/LD_output.xml` | Simulation detector output XML to overlay. |
@@ -423,7 +423,7 @@ Options:
 | `--validation-dir DIR` | `output sim/val1` | Folder containing `LD_outputN.xml` files or `rep_*_seed_*/LD_output.xml`. |
 | `--simulation-pattern GLOB` | `LD_output*.xml` | Glob for detector XML files. |
 | `--output-dir DIR` | `VALIDATION_DIR/start_edge_traffic_plots` | Output directory. |
-| `--format svg|png|pdf` | `png` | Plot format. |
+| `--format svg/png/pdf` | `png` | Plot format. |
 | `--interval-seconds N` | `300` | Aggregation bucket size. |
 | `--detector-flows-csv PATH` | `flows_detFWR.csv` | Detector input flows to overlay. |
 | `--speed-input-dir DIR` | `data/VBV` | VBV speed CSV directory. |
@@ -493,7 +493,7 @@ Options:
 | --- | --- | --- |
 | `--input-dir DIR` | `output sim/val1` | Folder containing `sumoN.log` files or `rep_*_seed_*/sumo.log`. |
 | `--output-dir DIR` | `INPUT_DIR/validation_summary` | Output directory. |
-| `--format png|pdf|svg` | `png` | Validation summary plot format. |
+| `--format png/pdf/svg` | `png` | Validation summary plot format. |
 
 Outputs:
 
@@ -517,7 +517,7 @@ Options:
 | `--output-dir DIR` | next to input XML | Output plot directory. |
 | `--interval-seconds N` | `300` | Aggregation bin size. |
 | `--day-seconds N` | `86400` | Minimum x-axis span. |
-| `--format png|pdf|svg` | `png` | Plot format. |
+| `--format png/pdf/svg` | `png` | Plot format. |
 
 Example:
 
@@ -542,7 +542,7 @@ Options:
 | `--output-dir DIR` | `INPUT_DIR/lanechange_plots` | Output directory. |
 | `--interval-seconds N` | `300` | Aggregation bin size. |
 | `--day-seconds N` | `86400` | Minimum x-axis span. |
-| `--format png|pdf|svg` | `png` | Plot format. |
+| `--format png/pdf/svg` | `png` | Plot format. |
 
 Example:
 
@@ -566,7 +566,7 @@ Options:
 | `--pattern GLOB` | `edgedata*.xml` | Glob for edge-data XML files. |
 | `--net-file PATH` | `network.net.xml` | SUMO network used for edge lengths. |
 | `--output-dir DIR` | `INPUT_DIR/mainline_edgedata_plots` | Output directory. |
-| `--format png|pdf|svg` | `png` | Plot format. |
+| `--format png/pdf/svg` | `png` | Plot format. |
 | `--dpi N` | `180` | Image DPI. |
 | `--density-limits VMIN VMAX` | auto | Fixed density color scale. |
 | `--speed-limits VMIN VMAX` | auto | Fixed speed color scale. |
@@ -596,7 +596,7 @@ Options:
 | `--det-rm PATH` | `detRM.add.xml` | Ramp-meter detector file used to identify ramp edges. |
 | `--net-file PATH` | `network.net.xml` | SUMO network for ramp approach edge expansion. |
 | `--output-dir DIR` | `SIGNAL_DIR/ramp_metering_effects` | Output directory. |
-| `--format png|pdf|svg` | `png` | Plot format. |
+| `--format png/pdf/svg` | `png` | Plot format. |
 | `--dpi N` | `180` | Image DPI. |
 
 Example:
