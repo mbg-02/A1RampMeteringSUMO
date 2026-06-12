@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-15T19:21:48.349917+01:00 by Eclipse SUMO dfrouter v1_25_0+0086-b1f02afa5bd
+<dfrouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="network.net.xml"/>
+        <detector-files value="detDFR.add.xml"/>
+    </input>
+
+    <output>
+        <detector-output value="detDFRgen.detectors.xml"/>
+        <detectors-poi-output value="detDFRgen.detectors.poi.xml"/>
+    </output>
+
+    <processing>
+        <revalidate-detectors value="true"/>
+    </processing>
+
+</dfrouterConfiguration>
+-->
+
+<detectors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/detectors_file.xsd">
+    <detectorDefinition id="072_B_SP" lane="E33B_0" pos="714.61" type="between"/>
+    <detectorDefinition id="072_Z_SP" lane="E30Z_0" pos="74.76" type="between"/>
+    <detectorDefinition id="229_B_SP" lane="E55B_0" pos="98.61" type="between"/>
+    <detectorDefinition id="229_Z_SP" lane="E8Z_0" pos="708.53" type="between"/>
+    <detectorDefinition id="280_B_SP" lane="E24B_0" pos="55.33" type="between"/>
+    <detectorDefinition id="280_Z_SP" lane="E39Z_0" pos="90.48" type="between"/>
+    <detectorDefinition id="298_B_SP" lane="E12B_0" pos="422.91" type="between"/>
+    <detectorDefinition id="298_Z_SP" lane="E50Z_0" pos="333.03" type="between"/>
+    <detectorDefinition id="335_B_SP" lane="E62B_0" pos="-10.00" type="sink"/>
+    <detectorDefinition id="335_Z_SP" lane="E1Z_0" pos="9.59" type="source"/>
+    <detectorDefinition id="382_Z_SP" lane="E61Z_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="382_B_SP" lane="E1B_0" pos="1.00" type="source"/>
+    <detectorDefinition id="48_B_off_SP" lane="E59Bout3_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="48_B_on_SP" lane="E62Bin2_0" pos="1.00" type="source"/>
+    <detectorDefinition id="48_Z_off_SP" lane="E1Zout3_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="48_Z_on_SP" lane="E5Zin2_0" pos="1.00" type="source"/>
+    <detectorDefinition id="49_B_off_SP" lane="E41Bout2_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="49_B_on_SP" lane="E44Bin3_0" pos="1.00" type="source"/>
+    <detectorDefinition id="49_Z_off_SP" lane="E20Zout2_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="49_Z_on_SP" lane="E23Zin2_0" pos="1.00" type="source"/>
+    <detectorDefinition id="50_B_off_SP" lane="E23Bout3_1" pos="-1.00" type="sink"/>
+    <detectorDefinition id="50_B_on_1_SP" lane="E29Bin4_0" pos="1.00" type="source"/>
+    <detectorDefinition id="50_B_on_2_SP" lane="E29Bin6_0" pos="1.00" type="source"/>
+    <detectorDefinition id="50_Z_off_SP" lane="E33Zout3_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="50_Z_on_1_SP" lane="E38Zin3_0" pos="1.00" type="source"/>
+    <detectorDefinition id="50_Z_on_2_SP" lane="E38Zin5_0" pos="1.00" type="source"/>
+    <detectorDefinition id="51_B_off_SP" lane="E14Bout_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="51_B_on_SP" lane="E17Bin_0" pos="1.00" type="source"/>
+    <detectorDefinition id="51_Z_off_SP" lane="E45Zout_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="51_Z_on_SP" lane="E48Zin_0" pos="1.00" type="source"/>
+    <detectorDefinition id="52_B_off_SP" lane="E3Bout3_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="52_B_on_SP" lane="E6Bin4_0" pos="1.00" type="source"/>
+    <detectorDefinition id="52_Z_off_SP" lane="E52Zout3_0" pos="-1.00" type="sink"/>
+    <detectorDefinition id="52_Z_on_SP" lane="E56Zin3_0" pos="1.00" type="source"/>
+</detectors>

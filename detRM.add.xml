@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-29T10:19:21.102487+01:00 by Eclipse SUMO netedit v1_25_0+0086-b1f02afa5bd
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="48_B_ld_bf1" lane="E61B_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_B_ld_bf2" lane="E61B_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_Z_ld_bf3" lane="E4Z_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_Z_ld_bf4" lane="E4Z_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_B_ld_bf1" lane="E43B_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_B_ld_bf2" lane="E43B_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_Z_ld_bf3" lane="E22Z_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_Z_ld_bf4" lane="E22Z_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_B_ld_bf1" lane="E28B_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_B_ld_bf2" lane="E28B_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_Z_ld_bf3" lane="E37Z_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_Z_ld_bf4" lane="E37Z_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_B_ld_bf1" lane="E16B_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_B_ld_bf2" lane="E16B_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_Z_ld_bf3" lane="E47Z_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_Z_ld_bf4" lane="E47Z_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_B_ld_bf1" lane="E5B_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_B_ld_bf2" lane="E5B_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_Z_ld_bf3" lane="E55Z_1" pos="-10.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_Z_ld_bf4" lane="E55Z_0" pos="-10.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_merge0" lane="E62B_0" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_merge1" lane="E62B_1" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_merge2" lane="E62B_2" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_met" lane="E62Bin1_0" pos="0" length="129.70" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_met2" lane="E62Bin2_0" pos="25" length="80" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_B_ad_met3" lane="E62Bin2_1" pos="25" length="80" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_Z_ad_merge3" lane="E5Z_2" pos="1.00" length="60.00" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_Z_ad_merge4" lane="E5Z_1" pos="1.00" length="60.00" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_Z_ad_met" lane="E5Zin1_0" pos="0" length="52.00" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_B_ad_merge1" lane="E44B_1" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_B_ad_merge2" lane="E44B_2" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_B_ad_met" lane="E44Bin2_0" pos="0" length="50.70" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_Z_ad_merge3" lane="E23Z_2" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_Z_ad_merge4" lane="E23Z_1" pos="1.00" length="80.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_Z_ad_met1" lane="E23Zin1_0" pos="0" length="51.4" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_merge1" lane="E29B_1" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_merge2" lane="E29B_2" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met" lane="E29Bin2_0" pos="0" length="218.7" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met2" lane="E29Bin3_0" pos="0" length="66.1" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met3" lane="E29Bin3_1" pos="0" length="66.1" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met4" lane="E29Bin4_0" pos="25" length="179.8" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met5" lane="E29Bin5_0" pos="0" length="230.9" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_B_ad_met6" lane="E29Bin6_0" pos="25" length="227.6" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_merge3" lane="E38Z_2" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_merge4" lane="E38Z_1" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met" lane="E38Zin1_0" pos="0" length="56.90" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_B_ad_merge1" lane="E17B_1" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_B_ad_merge2" lane="E17B_2" pos="1.00" length="100.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_B_ad_met" lane="E17Bin2_0" pos="0" length="327.6" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_B_ad_met2" lane="E17Bin3_0" pos="35" length="388.6" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_Z_ad_merge3" lane="E48Z_2" pos="1.00" length="200.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_Z_ad_merge4" lane="E48Z_1" pos="1.00" length="200.00" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="51_Z_ad_met" lane="E48Zin2_0" pos="0" length="298.3" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_B_ad_merge1" lane="E6B_1" pos="1.00" length="228" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_B_ad_merge2" lane="E6B_2" pos="1.00" length="228" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_B_ad_met" lane="E6Bin2_0" pos="0" length="220.4" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_B_ad_met2" lane="E6Bin3_0" pos="25" length="132.3" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_Z_ad_merge3" lane="E56Z_2" pos="1.00" length="228" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_Z_ad_merge4" lane="E56Z_1" pos="1.00" length="228" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="52_Z_ad_met" lane="E56Zin2_0" pos="25" length="282.6" friendlyPos="1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_Z_ad_met2" lane="E23Zin2_0" pos="25" length="120.00" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_Z_ld_spillback" lane="E23Zin2_0" pos="20" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="49_B_ad_met2" lane="E44Bin3_0" pos="25" length="141.8" period="60.00" file="/dev/null"/>
+    <inductionLoop id="49_B_ld_spillback" lane="E44Bin3_0" pos="20" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_Z_ad_met2" lane="E5Zin2_0" pos="25" length="65.1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="48_Z_ad_met3" lane="E5Zin2_1" pos="25" length="65.1" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_Z_ld_spillback1" lane="E5Zin2_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_Z_ld_spillback2" lane="E5Zin2_1" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_B_ld_spillback1" lane="E62Bin2_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="48_B_ld_spillback2" lane="E62Bin2_1" pos="20" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met2" lane="E38Zin2_0" pos="0" length="104.9" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met3" lane="E38Zin2_1" pos="0" length="104.9" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met4" lane="E38Zin3_0" pos="25" length="153.1" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met5" lane="E38Zin4_0" pos="0" length="197" period="60.00" file="/dev/null"/>
+    <laneAreaDetector id="50_Z_ad_met6" lane="E38Zin5_0" pos="25" length="220.7" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_B_ld_spillback1" lane="E29Bin4_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_B_ld_spillback2" lane="E29Bin6_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_Z_ld_spillback1" lane="E38Zin3_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="50_Z_ld_spillback2" lane="E38Zin5_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_B_ld_spillback" lane="E17Bin3_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="51_Z_ld_spillback" lane="E48Zin3_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_Z_ld_spillback" lane="E56Zin2_0" pos="20" period="60.00" file="/dev/null"/>
+    <inductionLoop id="52_B_ld_spillback" lane="E6Bin3_0" pos="20" period="60.00" file="/dev/null"/>
+
+</additional>

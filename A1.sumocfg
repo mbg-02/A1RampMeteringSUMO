@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-17T11:08:41.742771+01:00 by Eclipse SUMO sumo v1_25_0+0086-b1f02afa5bd
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="network.net.xml"/>
+        <route-files value="vTypes0.rou.xml,FLOWbus.routes.xml,FLOWcar.routes.xml,FLOWdeliv.routes.xml,FLOWmotc.routes.xml,FLOWtruck.routes.xml,FLOWbus.emitters.xml,FLOWcar.emitters.xml,FLOWdeliv.emitters.xml,FLOWmotc.emitters.xml,FLOWtruck.emitters.xml"/>
+        <additional-files value="detSIM.add.xml,detRM.add.xml,detDFR.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <lateral-resolution value="0.8"/>
+    </processing>
+
+    <report>
+        <log value="sumo.log"/>
+    </report>
+
+</sumoConfiguration>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-29T10:19:21.107105+01:00 by Eclipse SUMO netedit v1_25_0+0086-b1f02afa5bd
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="072_sim1" name="072_sim1" lane="E33B_0" pos="724.34" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="072_sim2" name="072_sim2" lane="E33B_1" pos="724.28" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="072_sim3" name="072_sim3" lane="E30Z_1" pos="64.98" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="072_sim4" name="072_sim4" lane="E30Z_0" pos="64.98" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="229_sim1" name="229_sim1" lane="E55B_0" pos="109.90" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="229_sim2" name="229_sim2" lane="E55B_1" pos="109.98" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="229_sim3" name="229_sim3" lane="E8Z_1" pos="697.76" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="229_sim4" name="229_sim4" lane="E8Z_0" pos="697.72" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="280_sim1" name="280_sim1" lane="E23Bout2_0" pos="54.59" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="280_sim2" name="280_sim2" lane="E24B_0" pos="64.51" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="280_sim3" name="280_sim3" lane="E24B_1" pos="64.31" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="280_sim4" name="280_sim4" lane="E39Z_1" pos="81.37" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="280_sim5" name="280_sim5" lane="E39Z_0" pos="81.39" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="298_sim1" name="298_sim1" lane="E12B_0" pos="432.10" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="298_sim2" name="298_sim2" lane="E12B_1" pos="431.47" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="298_sim3" name="298_sim3" lane="E50Z_1" pos="322.66" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="298_sim4" name="298_sim4" lane="E50Z_0" pos="323.33" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim1" name="335_sim1" lane="E62B_0" pos="100.36" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim2" name="335_sim2" lane="E62B_1" pos="100.38" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim3" name="335_sim3" lane="E62B_2" pos="100.41" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim4" name="335_sim4" lane="E1Z_2" pos="51.40" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim5" name="335_sim5" lane="E1Z_1" pos="51.32" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="335_sim6" name="335_sim6" lane="E1Z_0" pos="51.17" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="382_sim1" name="382_sim1" lane="E1B_0" pos="171.55" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="382_sim2" name="382_sim2" lane="E1B_1" pos="171.36" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="382_sim3" name="382_sim3" lane="E61Z_1" pos="446.13" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="382_sim4" name="382_sim4" lane="E61Z_0" pos="446.19" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_B_off1" lane="E59Bout2_0" pos="25.87" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_B_off2" lane="E59Bout2_1" pos="25.90" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_B_on1" lane="E62Bin2_0" pos="52.29" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_B_on2" lane="E62Bin2_1" pos="52.19" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_Z_off1" lane="E1Zout2_0" pos="129.44" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_Z_off2" lane="E1Zout2_1" pos="129.50" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_Z_on1" lane="E5Zin2_0" pos="52.50" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="48_Z_on2" lane="E5Zin2_1" pos="52.51" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_B_off1" lane="E41Bout2_0" pos="72.24" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_B_off2" lane="E41Bout2_1" pos="72.50" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_B_on" lane="E44Bin3_0" pos="88.89" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_Z_off1" lane="E20Zout2_0" pos="57.78" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_Z_off2" lane="E20Zout2_1" pos="58.08" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="49_Z_on" lane="E23Zin2_0" pos="82.52" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_B_off1" lane="E23Bout3_0" pos="58.37" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_B_off2" lane="E23Bout3_1" pos="59.44" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_B_on_1" lane="E29Bin4_0" pos="77.92" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_B_on_2" lane="E29Bin6_0" pos="62.87" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_Z_off1" lane="E33Zout3_0" pos="127.91" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_Z_off2" lane="E33Zout3_1" pos="129.66" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_Z_on_1" lane="E38Zin3_0" pos="50.91" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="50_Z_on_2" lane="E38Zin5_0" pos="67.96" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="51_B_off" lane="ELout1_1" pos="125.95" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="51_B_on" lane="ELin1_1" pos="173.89" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="51_Z_off" lane="ELout1_0" pos="125.89" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="51_Z_on" lane="ELin1_0" pos="173.84" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_B_off1" lane="E3Bout3_0" pos="48.00" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_B_off2" lane="E3Bout3_1" pos="47.97" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_B_on1" lane="E6Bin4_0" pos="49.80" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_B_on2" lane="E6Bin4_1" pos="49.75" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_Z_off1" lane="E52Zout3_0" pos="18.52" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_Z_off2" lane="E52Zout3_1" pos="18.65" period="300.00" file="LD_output.xml"/>
+    <inductionLoop id="52_Z_on" lane="E56Zin3_0" pos="49.59" period="300.00" file="LD_output.xml"/>
+</additional>
